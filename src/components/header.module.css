@@ -1,0 +1,15 @@
+.site-header {
+    margin: 0;
+    padding: 1rem 0;
+    box-shadow: 0px 3px 0px #cccccc;
+}
+
+.site-header nav {
+    margin-left: 10rem;
+}
+
+.site-header nav a {
+    margin-right: 2rem;
+    text-decoration: none;
+    color: #212121;
+}
