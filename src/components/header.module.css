@@ -1,15 +1,38 @@
 .site-header {
-    margin: 0;
-    padding: 1rem 0;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    overflow-x: auto ;
+    margin: 0 auto;
+    padding: 1.1rem 0;
     box-shadow: 0px 3px 0px #cccccc;
 }
 
 .site-header nav {
-    margin-left: 10rem;
+    display: flex;
+    flex-direction: row;
+    padding-left: 2rem;
 }
 
 .site-header nav a {
+    display: block;
+    font-size: 1.1rem;
     margin-right: 2rem;
     text-decoration: none;
     color: #212121;
+}
+
+.site-header aside {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 2rem;
+}
+
+a.button {
+    background-color: #FF912A;
+    color: white;
+    text-decoration: none;
+    display: block;
+    border-radius: 64px;
+    padding: 0.5rem 1.1rem;
 }
