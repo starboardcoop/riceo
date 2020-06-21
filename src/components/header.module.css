@@ -22,10 +22,19 @@
     color: #212121;
 }
 
+.site-header nav a:hover {
+    color: #10798F;
+}
+
 .site-header aside {
     display: flex;
     flex-direction: row-reverse;
     padding-right: 2rem;
+}
+
+.site-title {
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 
 a.button {
