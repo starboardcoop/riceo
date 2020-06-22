@@ -1,0 +1,25 @@
+.page-header {
+    background-color: rgb(200, 230, 230);
+    align-items: center;
+    overflow-x: auto;
+    margin: 0 auto;
+    padding: 1.1rem 0;
+}
+
+.page-header nav {
+    display: flex;
+    flex-direction: row;
+    padding-left: 2rem;
+}
+
+.page-header nav a {
+    display: block;
+    width: max-content;
+    margin-right: 2rem;
+    text-decoration: none;
+    color: #212121;
+}
+
+.page-header nav a:hover {
+    color: #10798F;
+}
