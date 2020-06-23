@@ -8,7 +8,14 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <Image />
+    <div className="container">
+      <Image />
+      <section className="hero-overlay">
+        <h1>Center for Employee Ownership</h1>
+        <h3>Supporting and promoting worker cooperatives in Rhode Island.</h3>
+        <a className="button">Contact</a>
+      </section>
+    </div>
     <section>
       <div className="centered">
         <h1>What is a worker cooperative?</h1>

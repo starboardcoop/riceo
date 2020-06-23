@@ -5,9 +5,8 @@ import styles from "./page-header.module.css"
 export default () => (
     <header className={styles.pageHeader}>
         <nav>
-            <Link to="#">First</Link>
-            <Link to="#">Second</Link>
-            <Link to="#">Third</Link>
+            <Link to="#">Worker co-ops</Link>
+            <Link to="#">Who we are</Link>
         </nav>
     </header>
 )
