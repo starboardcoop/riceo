@@ -8,14 +8,16 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
+    <section>
+      <h1>What is a worker cooperative?</h1>
+      <p>There are many kinds of cooperatives, such as credit unions and co-op markets. But unlike other “user-owned” or “consumer-owned” cooperatives, a worker co-op is a business owned by the people doing the work.</p>
+      <p>A worker cooperative (or worker co-op) is a type of business that puts worker wellbeing and community benefit at the core of its purpose.</p>
+    </section>
+    <section>
+      <h1>Who are we?</h1>
+      <p>The Rhode Island Center for Employee Ownership (RI CEO) is a non-profit organization working to promote and support the growing cooperative economy in the Ocean State.</p>
+      <Link className="button" to="/">Learn more</Link>
+    </section>
   </Layout>
 )
 
