@@ -37,16 +37,3 @@
     font-weight: bold;
     font-size: 1.5rem;
 }
-
-a.button {
-    background-color: #ff912a;
-    color: white;
-    text-decoration: none;
-    display: block;
-    border-radius: 64px;
-    padding: 0.5rem 1.1rem;
-}
-
-a.button:hover {
-    background-color: #ffa554;
-}

@@ -3,7 +3,7 @@
     align-items: center;
     overflow-x: auto;
     margin: 0 auto;
-    padding: 1.1rem 0;
+    padding: 0.9rem 0;
 }
 
 .page-header nav {
@@ -16,6 +16,7 @@
     display: block;
     width: max-content;
     margin-right: 2rem;
+    font-size: 0.9rem;
     text-decoration: none;
     color: #212121;
 }
