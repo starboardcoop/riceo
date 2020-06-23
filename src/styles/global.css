@@ -61,3 +61,13 @@ a.button:hover {
 section a.button {
     margin-bottom: 2rem;
 }
+
+section {
+    display: relative;
+}
+
+.centered {
+    margin: 0 auto;
+    max-width: 690px;
+    padding: 0 1.0875rem 1.45rem;
+}
