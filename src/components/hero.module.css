@@ -1,0 +1,15 @@
+.container {
+    position: relative;
+}
+
+.hero-overlay {
+    background-color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    top: 30%;
+    padding: 2rem;
+    width: 100%;
+}
+
+.hero-overlay h3 {
+    color: #2a2a2a;
+}
