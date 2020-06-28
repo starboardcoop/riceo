@@ -2,8 +2,9 @@
     position: relative;
     width: 100%;
     display: flex;
-    overflow-x: auto;
+    overflow-x: hidden;
     scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
 }
 
 .slide {
@@ -24,4 +25,17 @@
 
 .hero-overlay h3 {
     color: #2a2a2a;
+}
+
+.sliderlinks {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sliderlinks > a {
+    display: inline-flex;
+    position: relative;
+    font-size: 40px;
+    text-decoration: none;
+    justify-content: center;
 }
