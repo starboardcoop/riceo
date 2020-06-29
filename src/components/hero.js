@@ -9,8 +9,9 @@ const Hero = () => (
             <div className={styles.slide} id="slide1">
                 <Image />
                 <section className={styles.overlay}>
-                    <h1>Center for Employee Ownership</h1>
-                    <h3>Supporting and promoting worker cooperatives in Rhode Island.</h3>
+                    <h1>Rhode Island</h1>
+                    <h2>Center for Employee Ownership</h2>
+                    <h3>We promote and support the growing worker co-operative economy in the Ocean State.</h3>
                     <Link className="button" to="/">Contact</Link>
                 </section>
             </div>
