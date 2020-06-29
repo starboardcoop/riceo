@@ -36,7 +36,9 @@
 .slide-links > a {
     display: inline-flex;
     position: relative;
-    font-size: 2rem;
+    color: #2a2a2a;
+    font-size: 2.5rem;
     text-decoration: none;
     justify-content: center;
+    margin-right: 0.8rem;
 }
