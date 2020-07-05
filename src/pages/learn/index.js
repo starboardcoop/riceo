@@ -17,7 +17,7 @@ export default IndexPage
 
 export const pageQuery = graphql`
 query PageSectionQuery {
-    allMarkdownRemark {
+    allMarkdownRemark(sort: {fields: frontmatter___order}) {
         edges {
             node {
                 frontmatter {
