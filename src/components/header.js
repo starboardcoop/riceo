@@ -7,7 +7,7 @@ const Header = ({ siteTitle }) => (
     <nav>
       <Link className={styles.siteTitle} to="/">{siteTitle}</Link>
       <Link to="/">About</Link>
-      <Link to="/">Learn</Link>
+      <Link to="/learn">Learn</Link>
       <Link to="/">Resources</Link>
       <Link to="/">News</Link>
     </nav>
