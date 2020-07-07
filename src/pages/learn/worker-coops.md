@@ -1,5 +1,6 @@
 ---
-id: Worker Co-ops
+id: workercoops
+title: Worker Co-ops
 order: 1
 ---
 

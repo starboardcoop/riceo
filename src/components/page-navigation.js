@@ -2,11 +2,10 @@ import React from "react"
 import { Link } from "gatsby"
 import styles from "./page-header.module.css"
 
-export default () => (
+export default (props) => (
     <header className={styles.pageHeader}>
         <nav>
-            <Link to="#workercoops">Worker co-ops</Link>
-            <Link to="#whoweare">Who we are</Link>
+            { props.sections.map(section => <Link to={`#${section.id}`}>{section.title}</Link>) }
         </nav>
     </header>
 )
