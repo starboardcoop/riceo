@@ -1,6 +1,5 @@
 import React from "react"
 import { Link } from "gatsby"
-import Image from "../components/image"
 import styles from "./hero.module.css"
 import Slide from "../components/hero-slide"
 
