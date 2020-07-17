@@ -13,6 +13,7 @@ a.social {
     position: relative;
     text-align: center;
     font-size: 2rem;
+    margin: 0 0.7rem;
 }
 
 a.social:hover {
@@ -21,8 +22,7 @@ a.social:hover {
 
 div.socials {
     display: flex;
-    justify-content: right;
-    gap: 1.6rem;
+    justify-content: flex-end;
 }
 
 div.watermark {
@@ -30,6 +30,7 @@ div.watermark {
     justify-content: center;
     align-items: center;
     color: rgba(255, 255, 255, 0.7);
+    font-size: 0.8rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -39,7 +40,6 @@ div.watermark {
         grid-row-gap: 1rem;
      }
      div.socials {
-         justify-content: center;
-
+        justify-content: center;
      }
 }
