@@ -1,0 +1,36 @@
+header.banner {
+    min-height: 30vh;
+    background-image: url("../images/providence-rhode-island.jpg");
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: relative;
+    margin-bottom: 20vh;
+}
+
+.placard {
+    position: relative ;
+    min-height: 20vh;
+    background-color: rgba(200, 230, 230, 0.9);
+    border-radius: 4.9px;
+    padding: 2rem 4rem;
+    width: 50vw;
+    bottom: -14vh;
+    margin: auto;
+}
+
+@media screen and (max-width: 700px) {
+    .placard {
+        margin: 0;
+        width: 60vw;
+    }
+}
+
+/* .placard h1, h2 {
+    color: #ffffff;
+}
+
+.placard h3 {
+    color: #eeeeee;
+} */
