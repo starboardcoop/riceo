@@ -13,7 +13,6 @@ header.banner {
     position: relative ;
     min-height: 20vh;
     background-color: rgba(200, 230, 230, 0.9);
-    border-radius: 4.9px;
     padding: 2rem 4rem;
     width: 50vw;
     bottom: -14vh;
