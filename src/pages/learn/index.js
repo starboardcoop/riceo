@@ -19,7 +19,7 @@ export default IndexPage
 
 export const pageQuery = graphql`
 query LearnSectionQuery {
-  allMarkdownRemark(sort: {fields: frontmatter___order}, filter: {frontmatter: {page: {eq: "learn"}}}) {
+  allMarkdownRemark(sort: {fields: frontmatter___order}, filter: {fileAbsolutePath: {regex: "/learn/"}}) {
     edges {
       node {
         frontmatter {

@@ -19,7 +19,7 @@ export default IndexPage
 
 export const pageQuery = graphql`
 query ResourcesSectionQuery {
-  allMarkdownRemark(sort: {fields: frontmatter___order}, filter: {frontmatter: {page: {eq: "resources"}}}) {
+  allMarkdownRemark(sort: {fields: frontmatter___order}, filter: {fileAbsolutePath: {regex: "/resources/"}}) {
     edges {
       node {
         frontmatter {
