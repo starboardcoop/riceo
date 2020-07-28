@@ -12,7 +12,13 @@ export default  ({
         <SEO title="Worker Co-op News" />
         <Banner title="Worker Co-op News" subtitle="" content=""/>
         {
-            edges.map(edge => edge.node.frontmatter.title)
+            edges.map(edge => (
+                <article>
+                    <a href={edge.node.frontmatter.link} target="_blank"><h1>{edge.node.frontmatter.title}</h1></a>
+                    <img src={edge.node.frontmatter.image} alt="people" height="200" width="300"/>
+                    <main dangerouslySetInnerHTML={{__html: edge.node.html}}></main>
+                </article>
+            ))
         }
     </Layout>
 )
@@ -28,6 +34,7 @@ query NewsSectionQuery {
           image
           title
         }
+        html
       }
     }
   }
