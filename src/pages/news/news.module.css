@@ -1,0 +1,19 @@
+.container {
+    max-width: 55vw;
+    margin: 0 auto;
+
+}
+
+.article {
+    
+}
+
+.card {
+    text-decoration: none;
+    display: block;
+    margin: 1rem;
+}
+
+.card main {
+    color: black;
+}

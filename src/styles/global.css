@@ -6,7 +6,7 @@ html {
     font-size: 16px;
 }
 
-main {
+.main-container {
     min-height: 90vh;
 }
 
