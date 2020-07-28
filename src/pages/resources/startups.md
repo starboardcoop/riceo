@@ -1,6 +1,5 @@
 ---
 id: startups
-page: resources
 title: Startups
 order: 2
 ---

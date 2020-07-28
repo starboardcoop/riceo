@@ -1,6 +1,5 @@
 ---
 id: rhodeislandcoops
-page: learn
 title: Rhode Island Co-ops
 order: 2
 ---
