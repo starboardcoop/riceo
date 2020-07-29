@@ -1,6 +1,5 @@
 ---
 id: mission
-page: about
 title: Mission
 order: 2
 ---

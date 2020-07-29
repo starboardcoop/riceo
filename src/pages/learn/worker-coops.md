@@ -1,6 +1,5 @@
 ---
 id: workercoops
-page: learn
 title: Worker Co-ops
 order: 1
 ---

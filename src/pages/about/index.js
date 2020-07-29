@@ -19,7 +19,7 @@ export default IndexPage
 
 export const pageQuery = graphql`
 query AboutSectionQuery {
-    allMarkdownRemark(sort: {fields: frontmatter___order}, filter: {frontmatter: {page: {eq: "about"}}}) {
+    allMarkdownRemark(sort: {fields: frontmatter___order}, filter: {fileAbsolutePath: {regex: "/about/"}}) {
       edges {
         node {
           frontmatter {

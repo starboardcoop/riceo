@@ -1,6 +1,5 @@
 ---
 id: conversions
-page: resources
 title: Conversions
 order: 1
 ---
