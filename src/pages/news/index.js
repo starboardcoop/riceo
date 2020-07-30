@@ -15,7 +15,6 @@ export default  ({
         <div className={styles.container}>
         {
             edges.map(edge => (
-              //<a className={styles.card} href={edge.node.frontmatter.link} target="_blank">
                 <article className={styles.article}>
                   <div className={styles.imageContainer}>
                     <a href={edge.node.frontmatter.link} target="_blank"><img src={edge.node.frontmatter.image} alt="people" height="200" width="300"/></a>
@@ -26,7 +25,6 @@ export default  ({
                     <h3>{edge.node.frontmatter.subtitle}</h3>
                   </div>
                 </article>
-              //</a>
             ))
         }
         </div>
