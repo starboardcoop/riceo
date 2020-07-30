@@ -5,15 +5,20 @@
 }
 
 .article {
-    
+    margin-bottom: 4rem;
+    display: flex;
 }
 
 .card {
-    text-decoration: none;
     display: block;
     margin: 1rem;
 }
 
 .card main {
     color: black;
+}
+
+.image-container {
+    margin-right: 2rem;
+    margin-bottom: 2rem;
 }

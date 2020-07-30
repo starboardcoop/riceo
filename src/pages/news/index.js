@@ -15,13 +15,18 @@ export default  ({
         <div className={styles.container}>
         {
             edges.map(edge => (
-              <a className={styles.card} href={edge.node.frontmatter.link} target="_blank">
+              //<a className={styles.card} href={edge.node.frontmatter.link} target="_blank">
                 <article className={styles.article}>
-                  <h1>{edge.node.frontmatter.title}</h1>
-                  <img src={edge.node.frontmatter.image} alt="people" height="200" width="300"/>
-                  <main dangerouslySetInnerHTML={{__html: edge.node.html}}></main>
+                  <div className={styles.imageContainer}>
+                    <a href={edge.node.frontmatter.link} target="_blank"><img src={edge.node.frontmatter.image} alt="people" height="200" width="300"/></a>
+                  </div>
+                  <div>
+                    <span>{edge.node.frontmatter.date}</span>
+                    <a href={edge.node.frontmatter.link} target="_blank"><h1>{edge.node.frontmatter.title}</h1></a>
+                    <h3>{edge.node.frontmatter.subtitle}</h3>
+                  </div>
                 </article>
-              </a>
+              //</a>
             ))
         }
         </div>
@@ -34,12 +39,12 @@ query NewsSectionQuery {
     edges {
       node {
         frontmatter {
-          date
+          date(formatString: "dddd DD MMMM YYYY")
           link
           image
           title
+          subtitle
         }
-        html
       }
     }
   }
