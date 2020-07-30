@@ -20,8 +20,16 @@ module.exports = {
         path: `${__dirname}/src/pages`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `settings`,
+        path: `${__dirname}/src/settings`,
+      },
+    },
     `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
+    `gatsby-transformer-json`,
     `gatsby-plugin-sharp`,
     `gatsby-background-image`,
     {
