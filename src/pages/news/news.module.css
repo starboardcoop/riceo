@@ -5,15 +5,34 @@
 }
 
 .article {
-    
+    margin-bottom: 4rem;
+    display: flex;
 }
 
 .card {
-    text-decoration: none;
     display: block;
     margin: 1rem;
 }
 
 .card main {
     color: black;
+}
+
+.image-container {
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+@media(max-width: 800px) {
+    .container { 
+        max-width: 90vw;
+    }
+
+    .article {
+        flex-wrap: wrap;
+    }
+
+    .image-container img {
+        width: 90vw;
+    }
 }
