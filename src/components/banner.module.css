@@ -1,5 +1,5 @@
 header.banner {
-    min-height: 30vh;
+    height: 30vh;
     background-image: url("../images/providence-rhode-island.jpg");
     background-attachment: fixed;
     background-position: bottom;
