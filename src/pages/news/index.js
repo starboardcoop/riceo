@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 import Banner from "../../components/banner"
+import ExternalLink from "../../components/external-link"
 import styles from "./news.module.css"
 
 export default  ({
@@ -17,11 +18,15 @@ export default  ({
             edges.map(edge => (
                 <article className={styles.article}>
                   <div className={styles.imageContainer}>
-                    <a href={edge.node.frontmatter.link} target="_blank"><img src={edge.node.frontmatter.image} alt="people" height="200" width="300"/></a>
+                    <ExternalLink to={edge.node.frontmatter.link}>
+                      <img src={edge.node.frontmatter.image} alt="people" height="200" width="300"/>
+                    </ExternalLink>
                   </div>
                   <div>
                     <span>{edge.node.frontmatter.date}</span>
-                    <a href={edge.node.frontmatter.link} target="_blank"><h1>{edge.node.frontmatter.title}</h1></a>
+                    <ExternalLink to={edge.node.frontmatter.link}>
+                      <h1>{edge.node.frontmatter.title}</h1>
+                    </ExternalLink>
                     <h3>{edge.node.frontmatter.subtitle}</h3>
                   </div>
                 </article>
