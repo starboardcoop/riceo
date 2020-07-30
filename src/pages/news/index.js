@@ -37,7 +37,7 @@ query NewsSectionQuery {
     edges {
       node {
         frontmatter {
-          date(formatString: "dddd DD MMMM YYYY")
+          date(formatString: "MMMM DD, YYYY")
           link
           image
           title

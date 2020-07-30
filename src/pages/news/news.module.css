@@ -22,3 +22,17 @@
     margin-right: 2rem;
     margin-bottom: 2rem;
 }
+
+@media(max-width: 800px) {
+    .container { 
+        max-width: 90vw;
+    }
+
+    .article {
+        flex-wrap: wrap;
+    }
+
+    .image-container img {
+        width: 90vw;
+    }
+}
