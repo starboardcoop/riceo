@@ -18,4 +18,5 @@ The principle of one person, one vote.
 
 Surplus belongs to co-op members.
 
-Work is the only producer of wealth. As Abraham Lincoln put it: _“Capital is only the fruit of labor, and could never have existed if labor had not first existed. Labor is the superior of capital, and deserves much the higher consideration.”_
+Work is the only producer of wealth. As Abraham Lincoln put it: 
+> “Capital is only the fruit of labor, and could never have existed if labor had not first existed. Labor is the superior of capital, and deserves much the higher consideration.”

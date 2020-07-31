@@ -71,3 +71,8 @@ a.button {
 a.button:hover {
     background-color: #ffa554;
 }
+
+blockquote {
+    color: #10798F;
+    font-style: italic;
+}
