@@ -13,7 +13,7 @@ export default  ({
   }) => (
     <Layout>
         <SEO title="Worker Co-op News" />
-        <Banner title="Worker Co-op News" subtitle="" content=""/>
+        <Banner title="The News" subtitle="Worker co-ops around the country and the world." content=""/>
         <div className={styles.container}>
         {
             edges.map(edge => (
