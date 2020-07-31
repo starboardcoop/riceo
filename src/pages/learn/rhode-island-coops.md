@@ -1,11 +1,12 @@
 ---
-id: rhodeislandcoops
-title: Rhode Island Co-ops
+id: rhodeisland
+title: Rhode Island
 order: 2
 ---
 
-# Co-ops in Rhode Island
-Rhode Island is home to a growing cooperative community, including a number of worker co-ops.
+# Worker Co-ops in Rhode Island
+
+Since Rhode Island's Worker Cooperative incorporation bill was passed in 2017, a community of co-ops have sprung up all over the Ocean State. They operate in several industries, including cleaning services, printing/marketing, and restaurants.
 
 * Fortnight Wine Bar
 * Sol Power
