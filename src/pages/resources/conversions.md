@@ -16,3 +16,5 @@ Small businesses that sell to larger corporations are usually gutted or shut dow
 
 ### Supporting communities
 Keeping businesses owned by locals builds a more robust economy that is circular and sustainable, rather than extractive and exploitative.
+
+Want to learn more about worker co-op conversions? See [these resources](https://institute.coop/tools/for-worker-coops/conversions) from the Democracy at Work Institute.
