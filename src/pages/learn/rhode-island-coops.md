@@ -14,3 +14,12 @@ Since Rhode Island's Worker Cooperative incorporation bill was passed in 2017, a
 * Bread & Roses Printing
 * Starboard Developer Co-op
 * Child's Play Cooperative Preschool
+
+## [Sol Power](http://solpowersolar.com/)
+Sol Power is a worker-owned cooperative specializing in solar installations, battery backup systems, generators, and full electrical service. They began in 2012 as a single-owner LLC but decided to convert to worker ownership.
+
+## [Healthy Planet](https://hpcco-op.com/)
+Healthy Planet was the first business in Rhode Island to incorporate under the “Workers’ Cooperative” law that passed in 2017.
+
+## [Fortnight Wine Bar](http://fortnightpvd.com/)
+Fortnight is an experimental wine bar with a wide range of offerings, including wines and craft beer. They are located in downtown Providence.
