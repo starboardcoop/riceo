@@ -52,3 +52,8 @@
     justify-content: center;
     margin-right: 0.8rem;
 }
+
+.slide-links > a:hover {
+    transform: scale(1.4);
+    color: #10798F;
+}
