@@ -1,0 +1,40 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form * {
+    margin-bottom: 2rem;
+}
+
+.text-area {
+    min-height: 10rem;
+    resize: none;
+}
+
+.text-box, .text-area {
+    padding: 1rem;
+    font-family: "Rubik", sans-serif;
+    font-size: 1rem;
+    border: 2px solid #cccccc;
+}
+
+.text-box:focus, .text-area:focus {
+    border-color: #10798F;
+}
+
+.form button {
+    display: inline-block;
+    width: max-content;
+    font-family: "Rubik", sans-serif;
+    font-size: 1rem;
+    padding: 0.5rem 2.5rem;
+}
+
+@media (max-width: 800px) {
+    .form {
+        margin: 0 1.5rem;
+    }
+}
