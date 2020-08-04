@@ -30,7 +30,7 @@ const Header = ({ siteTitle }) => (
       <Links />
     </nav>
     <aside>
-      <Link className="button" to="/">Contact</Link>
+      <Link className="button" to="/contact">Contact</Link>
     </aside>
   </header>
 )
