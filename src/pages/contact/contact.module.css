@@ -21,6 +21,10 @@
     border: 2px solid #cccccc;
 }
 
+.text-box:focus, .text-area:focus {
+    border-color: #10798F;
+}
+
 .form button {
     display: inline-block;
     width: max-content;
