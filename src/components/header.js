@@ -7,6 +7,10 @@ const Links = () => (
     query={graphql`
    {
       navigationJson {
+        logo {
+          img
+          alt
+        }
         links {
           link
           label
@@ -15,18 +19,20 @@ const Links = () => (
     }
     `}
 
-    render={data => (
-      data.navigationJson.links.map(link => (
+    const render ={data => (
+      <>
+      <Link className={styles.siteTitle} to="/">{data.navigationJson.logo.alt}</Link>
+      {data.navigationJson.links.map(link => (
         <Link to={link.link}>{link.label}</Link>
-      ))
+      ))}
+      </>
     )}
   />
 )
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <header className={styles.siteHeader}>
     <nav>
-      <Link className={styles.siteTitle} to="/">{siteTitle}</Link>
       <Links />
     </nav>
     <aside>
