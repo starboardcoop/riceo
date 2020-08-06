@@ -4,25 +4,26 @@ import styles from "./hero.module.css"
 import Slide from "../components/hero-slide"
 import { graphql, StaticQuery } from 'gatsby'
 
+const slidesQuery = graphql`
+{
+  settingsJson {
+    slides {
+      title
+      subtitle
+      content
+      button {
+        label
+        link
+      }
+    }
+  }
+}
+`
 
 const Slides = () => (
     <StaticQuery
-      query={graphql`
-      {
-        settingsJson {
-          slides {
-            title
-            subtitle
-            content
-            button {
-              label
-              link
-            }
-          }
-        }
-      }
-      `}
-      
+      query={slidesQuery}
+
       render={data => (
         data.settingsJson.slides.map((slide, index) => (
             <Slide className={styles.slide} id={"slide" + (index + 1)}>
@@ -38,14 +39,25 @@ const Slides = () => (
     />
   )
 
+const SlideLinks = () => (
+    <StaticQuery 
+        query={slidesQuery}
+
+        render={data => (
+            data.settingsJson.slides.map((slide, index) => (
+                <Link to={"#slide" + (index + 1)}>&#8226;</Link>
+            ))
+        )}
+    />
+)
+
 const Hero = () => (
     <div>
         <div className={styles.slides}>
             <Slides />
         </div> 
         <div className={styles.slideLinks}>
-            <Link to="#slide1">&#8226;</Link>
-            <Link to="#slide2">&#8226;</Link>
+            <SlideLinks />
         </div>
     </div>
 )
