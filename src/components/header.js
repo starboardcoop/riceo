@@ -1,30 +1,32 @@
 import { Link, StaticQuery, graphql } from "gatsby"
 import React from "react"
 import styles from "./header.module.css"
+import logo from "../images/logo.png"
 
 const Links = () => (
   <StaticQuery
     query={graphql`
-   {
-      navigationJson {
-        logo {
-          img
-          alt
-        }
-        links {
-          link
-          label
+      {
+        navigationJson {
+          logo {
+            alt
+          }
+          links {
+            link
+            label
+          }
         }
       }
-    }
     `}
 
     const render ={data => (
       <>
-      <Link className={styles.siteTitle} to="/">{data.navigationJson.logo.alt}</Link>
-      {data.navigationJson.links.map(link => (
-        <Link to={link.link}>{link.label}</Link>
-      ))}
+        <Link className={styles.siteTitle} to="/">
+          <img src={logo} alt={data.navigationJson.logo.alt} />
+        </Link>
+        {data.navigationJson.links.map(link => (
+          <Link to={link.link}>{link.label}</Link>
+        ))}
       </>
     )}
   />
