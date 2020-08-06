@@ -6,7 +6,7 @@ import { graphql, StaticQuery } from 'gatsby'
 
 const slidesQuery = graphql`
 {
-  settingsJson {
+  heroJson {
     slides {
       title
       subtitle
@@ -25,7 +25,7 @@ const Slides = () => (
       query={slidesQuery}
 
       render={data => (
-        data.settingsJson.slides.map((slide, index) => (
+        data.heroJson.slides.map((slide, index) => (
             <Slide className={styles.slide} id={"slide" + (index + 1)}>
                 <section className={styles.overlay}>
                     <h1>{slide.title}</h1>
@@ -44,7 +44,7 @@ const SlideLinks = () => (
         query={slidesQuery}
 
         render={data => (
-            data.settingsJson.slides.map((slide, index) => (
+            data.heroJson.slides.map((slide, index) => (
                 <Link to={"#slide" + (index + 1)}>&#8226;</Link>
             ))
         )}

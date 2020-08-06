@@ -5,18 +5,18 @@ import styles from "./header.module.css"
 const Links = () => (
   <StaticQuery
     query={graphql`
-      query {
-        settingsJson {
-          links {
-            label
-            link
-          }
+   {
+      navigationJson {
+        links {
+          link
+          label
         }
       }
+    }
     `}
 
     render={data => (
-      data.settingsJson.links.map(link => (
+      data.navigationJson.links.map(link => (
         <Link to={link.link}>{link.label}</Link>
       ))
     )}
