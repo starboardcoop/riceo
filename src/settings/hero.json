@@ -1,0 +1,22 @@
+{
+    "slides": [
+        {
+            "title": "Rhode Island",
+            "subtitle": "Center for Employee Ownership",
+            "content": "We promote and support the growing worker co-operative economy in the Ocean State.",
+            "button": {
+                "label": "Contact",
+                "link": "/contact"
+            }
+        },
+        {
+            "title": "Local jobs.",
+            "subtitle": "",
+            "content": "Worker co-ops create sustainable, well-paying local jobs that stay local.",
+            "button": {
+                "label": "Learn more",
+                "link": "/learn"
+            }
+        }
+    ]
+}
