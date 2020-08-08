@@ -1,9 +1,9 @@
 import React from "react"
 import { graphql } from "gatsby"
-import Layout from "../../components/layout"
-import Section from "../../components/section"
-import PageNavigation from "../../components/page-navigation"
-import Banner from "../../components/banner"
+import Layout from "../components/layout"
+import Section from "../components/section"
+import PageNavigation from "../components/page-navigation"
+import Banner from "../components/banner"
 
 const IndexPage = ({
   data: {
