@@ -1,5 +1,5 @@
 .container {
-    max-width: 55vw;
+    width: 60vw;
     margin: 0 auto;
 
 }
@@ -23,7 +23,7 @@
     margin-bottom: 2rem;
 }
 
-@media(max-width: 800px) {
+@media(max-width: 700px) {
     .container { 
         max-width: 90vw;
     }
