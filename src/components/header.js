@@ -19,7 +19,7 @@ const Links = () => (
       }
     `}
 
-    const render ={data => (
+    render={data => (
       <>
         <Link className={styles.siteTitle} to="/">
           <img src={logo} alt={data.navigationJson.logo.alt} />
