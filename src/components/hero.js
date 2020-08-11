@@ -26,7 +26,7 @@ const Slides = () => (
 
       render={data => (
         data.heroJson.slides.map((slide, index) => (
-            <Slide className={styles.slide} id={"slide" + (index + 1)}>
+            <Slide className={styles.slide} id={"slide" + (index + 1)} key={index}>
                 <section className={styles.overlay}>
                     <h1>{slide.title}</h1>
                     <h2>{slide.subtitle}</h2>
@@ -45,7 +45,7 @@ const SlideLinks = () => (
 
         render={data => (
             data.heroJson.slides.map((slide, index) => (
-                <Link to={"#slide" + (index + 1)}>&#8226;</Link>
+                <Link to={"#slide" + (index + 1)} key={index}>&#8226;</Link>
             ))
         )}
     />

@@ -25,7 +25,7 @@ const Links = () => (
           <img src={logo} alt={data.navigationJson.logo.alt} />
         </Link>
         {data.navigationJson.links.map(link => (
-          <Link activeClassName={styles.activeLink}to={link.link}>{link.label}</Link>
+          <Link activeClassName={styles.activeLink} to={link.link} key={link.label}>{link.label}</Link>
         ))}
       </>
     )}
