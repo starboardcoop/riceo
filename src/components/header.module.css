@@ -42,3 +42,7 @@
 .site-title img {
     max-height: 2.75rem;
 }
+
+.active-link {
+    border-bottom: 2px solid #10798F;
+}
