@@ -49,6 +49,7 @@ p {
 }
 
 a {
+    color: inherit;
     text-underline-offset: 3px;
     text-decoration-skip-ink: auto;
     text-decoration-thickness: 3px;
