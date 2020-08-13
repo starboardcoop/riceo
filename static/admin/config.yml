@@ -64,3 +64,23 @@ collections:
       - { name: image, label: Image, widget: image }
       - { name: link, label: Link }
       - { name: date, label: Date , widget: date }
+  - name: settings
+    label: Settings
+    editor:
+      preview: false
+    files:
+      - label: Navigation
+        name: navigation 
+        file: src/settings/navigation/navigation.json
+        fields:
+          - label: Logo
+            name: logo
+            widget: object
+            fields: 
+              - {label: "Alt Text", name: alt}
+          - label: Links
+            name: links
+            widget: list
+            fields: 
+              - {label: Label, name: label}
+              - {label: Link, name: link}
