@@ -8,6 +8,17 @@ media_folder: static/assets
 public_folder: /assets
 
 collections:
+  - name: home
+    label: Home
+    folder: src/markdown/home
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { name: id, label: ID }
+      - { name: title, label: Title }
+      - { name: order, label: Order, widget: number }
+      - { name: body, label: Body, widget: markdown }
   - name: about
     label: About
     folder: src/markdown/about
