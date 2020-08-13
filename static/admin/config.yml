@@ -84,3 +84,20 @@ collections:
             fields: 
               - {label: Label, name: label}
               - {label: Link, name: link}
+      - label: Hero
+        name: hero
+        file: src/settings/hero/hero.json
+        fields:
+          - label: Slides
+            name: slides
+            widget: list
+            fields:
+              - {label: Title, name: title}
+              - {label: Subtitle, name: subtitle}
+              - {label: Content, name: content, widget: text}
+              - label: Button
+                name: button
+                widget: object
+                fields:
+                  - {label: Label, name: label}
+                  - {label: Link, name: link}
