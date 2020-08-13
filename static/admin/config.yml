@@ -30,6 +30,17 @@ collections:
       - { name: title, label: Title }
       - { name: order, label: Order, widget: number }
       - { name: body, label: Body, widget: markdown }
+  - name: resources
+    label: Resources
+    folder: src/markdown/resources
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { name: id, label: ID }
+      - { name: title, label: Title }
+      - { name: order, label: Order, widget: number }
+      - { name: body, label: Body, widget: markdown }
   - name: news
     label: News
     folder: src/markdown/news
