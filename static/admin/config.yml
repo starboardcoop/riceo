@@ -1,16 +1,19 @@
 backend:
-  name: test-repo
+  name: github
+  repo: starboardcoop/riceo
+
+local_backend: true
 
 media_folder: static/assets
 public_folder: /assets
 
 collections:
-  - name: blog
-    label: Blog
-    folder: blog
+  - name: about
+    label: About
+    folder: markdown/about
     create: true
     fields:
-      - { name: path, label: Path }
-      - { name: date, label: Date, widget: datetime }
+      - { name: id, label: ID }
       - { name: title, label: Title }
+      - { name: order, label: Order, widget: number }
       - { name: body, label: Body, widget: markdown }
