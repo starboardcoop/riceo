@@ -10,10 +10,35 @@ public_folder: /assets
 collections:
   - name: about
     label: About
-    folder: markdown/about
+    folder: src/markdown/about
     create: true
+    editor:
+      preview: false
     fields:
       - { name: id, label: ID }
       - { name: title, label: Title }
       - { name: order, label: Order, widget: number }
       - { name: body, label: Body, widget: markdown }
+  - name: learn
+    label: Learn
+    folder: src/markdown/learn
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { name: id, label: ID }
+      - { name: title, label: Title }
+      - { name: order, label: Order, widget: number }
+      - { name: body, label: Body, widget: markdown }
+  - name: news
+    label: News
+    folder: src/markdown/news
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { name: title, label: Title }
+      - { name: subtitle, label: Subtitle}
+      - { name: image, label: Image, widget: image }
+      - { name: link, label: Link }
+      - { name: date, label: Date , widget: date }
