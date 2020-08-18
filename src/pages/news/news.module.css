@@ -1,21 +1,11 @@
 .container {
     width: 60vw;
     margin: 0 auto;
-
 }
 
 .article {
     margin-bottom: 4rem;
     display: flex;
-}
-
-.card {
-    display: block;
-    margin: 1rem;
-}
-
-.card main {
-    color: black;
 }
 
 .image-container {
@@ -25,7 +15,7 @@
 
 @media(max-width: 700px) {
     .container { 
-        max-width: 90vw;
+        width: 90vw;
     }
 
     .article {
