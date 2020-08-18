@@ -1,9 +1,11 @@
 import React from "react"
 import Layout from "../../components/layout"
 import styles from "./contact.module.css"
+import SEO from "../../components/seo"
 
 export default () => (
     <Layout>
+        <SEO title="Contact" />
         <form className={ styles.form }>
             <h1>Contact</h1>
             <input className={ styles.textBox } placeholder="Name"/>

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Rhode Island CEO`,
-    description: `We advocate for a worker cooperative economy in the Ocean State.`,
+    description: `The Rhode Island Center for Employee Ownership develops technical, financial assistance, and regulatory support to advance employee ownership in the State of Rhode Island. Our long-term mission is to cultivate an environment for the growth of a worker cooperative business sector.`,
     author: `@RhodeIslandCEO`,
   },
   plugins: [
