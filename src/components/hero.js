@@ -1,47 +1,19 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, graphql, StaticQuery } from "gatsby"
+import Slides from "./hero-slides"
 import styles from "./hero.module.css"
-import Slide from "../components/hero-slide"
-import { graphql, StaticQuery } from 'gatsby'
-
-const slidesQuery = graphql`
-{
-  heroJson {
-    slides {
-      title
-      subtitle
-      content
-      button {
-        label
-        link
-      }
-    }
-  }
-}
-`
-
-const Slides = () => (
-    <StaticQuery
-      query={slidesQuery}
-
-      render={data => (
-        data.heroJson.slides.map((slide, index) => (
-            <Slide className={styles.slide} id={"slide" + (index + 1)} key={index}>
-                <section className={styles.overlay}>
-                    <h1>{slide.title}</h1>
-                    <h2>{slide.subtitle}</h2>
-                    <h3>{slide.content}</h3>
-                    <Link className="button" to={slide.button.link}>{slide.button.label}</Link>
-                </section>
-            </Slide>
-        ))
-      )}
-    />
-  )
 
 const SlideLinks = () => (
     <StaticQuery 
-        query={slidesQuery}
+        query={graphql`
+          {
+            heroJson {
+              slides {
+                title
+              }
+            }
+          }
+        `}
 
         render={data => (
             data.heroJson.slides.map((slide, index) => (
