@@ -1,7 +1,7 @@
 ---
 id: rhodeisland
 title: Rhode Island
-order: 2
+order: 3
 ---
 
 # Worker Co-ops in Rhode Island
