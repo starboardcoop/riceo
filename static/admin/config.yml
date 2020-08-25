@@ -1,8 +1,7 @@
 backend:
-  name: github
-  repo: starboardcoop/riceo
+  name: git-gateway
 
-local_backend: true
+site_url: https://riceo.org
 
 media_folder: static/assets
 public_folder: /assets
