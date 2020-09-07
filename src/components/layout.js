@@ -34,7 +34,7 @@ const Layout = ({ children }) => {
         <footer className={styles.footer}>
           <div></div>
           <div className={styles.watermark}>
-            <span>Designed by Starboard in Rhode Island</span>
+            <span><a href="https://twitter.com/starboardcoop">Designed by Starboard in Rhode Island</a></span>
           </div>
           <div className={styles.socials}>
             <ExternalLink to="https://twitter.com/rhodeislandceo" className={styles.social}><FontAwesomeIcon icon={faTwitterSquare} /></ExternalLink>
