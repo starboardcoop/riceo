@@ -13,7 +13,7 @@ import Header from "./header"
 import ExternalLink from "./external-link"
 import styles from "./footer.module.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTwitterSquare, faFacebook, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import { faTwitter, faFacebook, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 
 
 const Layout = ({ children }) => {
@@ -37,7 +37,7 @@ const Layout = ({ children }) => {
             <span><a href="https://twitter.com/starboardcoop">Designed by Starboard in Rhode Island</a></span>
           </div>
           <div className={styles.socials}>
-            <ExternalLink to="https://twitter.com/rhodeislandceo" className={styles.social}><FontAwesomeIcon icon={faTwitterSquare} /></ExternalLink>
+            <ExternalLink to="https://twitter.com/rhodeislandceo" className={styles.social}><FontAwesomeIcon icon={faTwitter} /></ExternalLink>
             <ExternalLink to="https://www.facebook.com/RICenter4EmployeeOwnership/" className={styles.social}><FontAwesomeIcon icon={faFacebook} /></ExternalLink>
             <ExternalLink to="https://www.linkedin.com/company/riceo" className={styles.social}><FontAwesomeIcon icon={faLinkedinIn} /></ExternalLink>
           </div>
