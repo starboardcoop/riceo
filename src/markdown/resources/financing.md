@@ -9,6 +9,9 @@ Although co-ops can sometimes get financing from a traditional lender, many bank
 
 Luckily, there are non-profit organizations that exist specifically to finance co-op startups and conversions.
 
+## [Cooperative Fund of New England](https://www.cooperativefund.org/)
+CFNE works for economic, social, and racial justice by advancing community-based, cooperative and democratically owned or managed enterprises with a preference to assisting cooperatives in low-income communities. They have been assisting co-ops since 1975.
+
 ## [Shared Capital Cooperative](https://sharedcapital.coop/)
 Shared Capital Co-op is a cooperative that lends to cooperatives. They have been active for the last 40 years and have financed more than 800 cooperative projects. Any type of co-op is eligible, but must become a member before being able to borrow.
 
