@@ -6,7 +6,7 @@ import SEO from "../../components/seo"
 export default () => (
     <Layout>
         <SEO title="Contact" />
-        <form className={styles.form}>
+        <form name="contact" method="POST" data-netlify="true" className={styles.form}>
             <h1>Contact</h1>
 
             <label htmlFor="name" hidden="true">Name</label>
