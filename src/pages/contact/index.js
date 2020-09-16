@@ -6,8 +6,9 @@ import SEO from "../../components/seo"
 export default () => (
     <Layout>
         <SEO title="Contact" />
-        <form name="contact" method="POST" data-netlify="true" className={styles.form}>
+        <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field" className={styles.form}>
             <h1>Contact</h1>
+            <input type="hidden" name="form-name" value="contact" />
 
             <label htmlFor="name" hidden="true">Name</label>
             <input id="name" name="name" className={styles.textBox} placeholder="Name"/>
