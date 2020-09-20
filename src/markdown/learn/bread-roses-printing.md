@@ -1,9 +1,9 @@
 ---
 id: breadandroses
-title: Bread & Roses Printing
+title: Bread & Roses
 order: 4
 ---
-## Bread & Roses Printing
+## [Bread & Roses Printing](http://breadandrosesri.com/)
 
 Bread & Roses started as a worker cooperative in the summer of 2019 and signed a union contract with the Teamsters that same year. Their services are extensive, including, but not limited to, graphic and web design, union printing, apparel, brand and political consulting, political campaign materials, and photography. They span as small as business cards and produce as large as billboards!
 
