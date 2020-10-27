@@ -13,7 +13,6 @@ Since Rhode Island's Worker Cooperative incorporation bill was passed in 2017, a
 * Healthy Planet
 * Bread & Roses Printing
 * Starboard Developer Co-op
-* Child's Play Cooperative Preschool
 
 ## [Sol Power](http://solpowersolar.com/)
 Sol Power is a worker-owned cooperative specializing in solar installations, battery backup systems, generators, and full electrical service. They began in 2012 as a single-owner LLC but decided to convert to worker ownership.
