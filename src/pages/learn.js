@@ -13,7 +13,17 @@ const IndexPage = ({
 }) => {
   const Sections = edges
     .map(edge => <Section id={edge.node.frontmatter.id} key={edge.node.frontmatter.id} html={edge.node.html}/>)
-  return <Layout><SEO title="Learn" /><PageNavigation sections={edges.map(edge => edge.node.frontmatter)} /><Banner title="Learn" subtitle="" content="Worker cooperatives are the better way to do business."/>{Sections}</Layout>
+  return (
+    <Layout>
+      <SEO title="Learn" />
+      <PageNavigation sections={edges.map(edge => edge.node.frontmatter)} />
+      <Banner title="Learn" subtitle="" content="Worker cooperatives are the better way to do business."/>
+      {Sections}
+      <Section id="directory">
+        <iframe title="Rhode Island Worker Co-op Directory" class="airtable-embed" src="https://airtable.com/embed/shr8EMBUEEKnweaxk?backgroundColor=teal" frameborder="0" onmousewheel="" width="100%" height="533" style={{background: "transparent", border: "1px solid #ccc"}}></iframe>
+      </Section>
+    </Layout>
+  )
 }
 
 export default IndexPage
