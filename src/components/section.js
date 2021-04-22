@@ -1,15 +1,14 @@
 import React from "react"
-import styles from "./section.module.css"
 
 const Section = (props) => (
-    <section id={props.id} className={styles.section}>
+    <section id={props.id}>
         {
             props.html != null &&
-            <div className={styles.centered} dangerouslySetInnerHTML={{__html: props.html}}></div>
+            <div dangerouslySetInnerHTML={{__html: props.html}}></div>
         }
         {
             props.html == null &&
-            <div className={styles.centered}>
+            <div>
                 {props.children}
             </div>
         }

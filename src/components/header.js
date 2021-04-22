@@ -1,6 +1,5 @@
 import { Link, StaticQuery, graphql } from "gatsby"
 import React from "react"
-import styles from "./header.module.css"
 import logo from "../images/logo.png"
 
 const Links = () => (
@@ -21,11 +20,11 @@ const Links = () => (
 
     render={data => (
       <>
-        <Link className={styles.siteTitle} to="/">
-          <img src={logo} alt={data.navigationJson.logo.alt} />
+        <Link className="text-lg font-bold" to="/">
+          <img src={logo} alt={data.navigationJson.logo.alt} className="max-h-11" />
         </Link>
         {data.navigationJson.links.map(link => (
-          <Link activeClassName={styles.activeLink} to={link.link} key={link.label}>{link.label}</Link>
+          <Link className="w-max text-lg rounded-full px-4 py-1 hover:bg-secondary" activeClassName="border-b border-2 border-primary" to={link.link} key={link.label}>{link.label}</Link>
         ))}
       </>
     )}
@@ -33,11 +32,11 @@ const Links = () => (
 )
 
 const Header = () => (
-  <header className={styles.siteHeader}>
-    <nav>
+  <header className="flex flex-row items-center overflow-x-auto mx-auto py-4 shadow-sm">
+    <nav className="flex flex-row flex-grow items-center space-x-6 pl-8">
       <Links />
     </nav>
-    <aside>
+    <aside className="flex flex-row-reverse pr-8">
       <Link className="button" to="/contact">Contact</Link>
     </aside>
   </header>

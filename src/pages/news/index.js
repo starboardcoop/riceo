@@ -4,7 +4,6 @@ import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 import Banner from "../../components/banner"
 import ExternalLink from "../../components/external-link"
-import styles from "./news.module.css"
 
 export default  ({
     data: {
@@ -14,11 +13,11 @@ export default  ({
     <Layout>
         <SEO title="Worker Co-op News" />
         <Banner title="The News" subtitle="Worker co-ops around the country and the world." content=""/>
-        <div className={styles.container}>
+        <div>
         {
             edges.map(edge => (
-                <article className={styles.article} key={edge.node.frontmatter.link}>
-                  <div className={styles.imageContainer}>
+                <article key={edge.node.frontmatter.link}>
+                  <div>
                     <ExternalLink to={edge.node.frontmatter.link}>
                       <img src={edge.node.frontmatter.image} alt="people" height="200" width="300"/>
                     </ExternalLink>

@@ -1,7 +1,6 @@
 import React from "react"
 import { Link, graphql, StaticQuery } from "gatsby"
 import Slides from "./hero-slides"
-import styles from "./hero.module.css"
 
 const SlideLinks = () => (
     <StaticQuery 
@@ -25,10 +24,10 @@ const SlideLinks = () => (
 
 const Hero = () => (
     <div>
-        <div className={styles.slides}>
+        <div>
             <Slides />
         </div> 
-        <div className={styles.slideLinks}>
+        <div>
             <SlideLinks />
         </div>
     </div>
