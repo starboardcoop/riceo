@@ -33,18 +33,18 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
-        <main>{children}</main>
-        <footer className="bg-primary text-secondary px-8 py-4 flex flex-col space-y-2 md:grid md:grid-cols-3">
-          <div></div>
-          <div className="flex flex-row justify-center items-center text-sm text-center">
-            <a href="https://starboard.coop">Designed by Starboard in Rhode Island</a>
-          </div>
-          <div className="flex flex-row space-x-4 justify-center md:justify-end">
-            <ExternalLink to="https://twitter.com/rhodeislandceo" className={styles.social}><FontAwesomeIcon icon={faTwitter} /></ExternalLink>
-            <ExternalLink to="https://www.facebook.com/RICenter4EmployeeOwnership/" className={styles.social}><FontAwesomeIcon icon={faFacebook} /></ExternalLink>
-            <ExternalLink to="https://www.linkedin.com/company/riceo" className={styles.social}><FontAwesomeIcon icon={faLinkedinIn} /></ExternalLink>
-          </div>
-        </footer>
+      <main>{children}</main>
+      <footer className="bg-primary text-secondary px-8 py-4 flex flex-col space-y-2 md:grid md:grid-cols-3">
+        <div></div>
+        <div className="flex flex-row justify-center items-center text-sm text-center">
+          <a href="https://starboard.coop">Designed by Starboard in Rhode Island</a>
+        </div>
+        <div className="flex flex-row space-x-4 justify-center md:justify-end">
+          <ExternalLink to="https://twitter.com/rhodeislandceo" className={styles.social}><FontAwesomeIcon icon={faTwitter} /></ExternalLink>
+          <ExternalLink to="https://www.facebook.com/RICenter4EmployeeOwnership/" className={styles.social}><FontAwesomeIcon icon={faFacebook} /></ExternalLink>
+          <ExternalLink to="https://www.linkedin.com/company/riceo" className={styles.social}><FontAwesomeIcon icon={faLinkedinIn} /></ExternalLink>
+        </div>
+      </footer>
     </>
   )
 }
