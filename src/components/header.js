@@ -32,7 +32,7 @@ const Links = () => (
 )
 
 const Header = () => (
-  <header className="flex flex-row items-center overflow-x-auto mx-auto py-4 shadow-sm">
+  <header className="bg-white flex flex-row items-center overflow-x-auto mx-auto py-4 shadow-sm">
     <nav className="flex flex-row flex-grow items-center space-x-6 pl-8">
       <Links />
     </nav>

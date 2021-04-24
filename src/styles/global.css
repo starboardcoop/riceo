@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 html {
-    color: #2a2a2a;
+    @apply text-gray-800;
     font-family: "Rubik", sans-serif;
     font-size: 17px;
 }
@@ -15,8 +15,7 @@ html {
 }
 
 body {
-    margin: 0;
-    padding: 0;
+    @apply bg-gray-50;
 }
 
 h1,
