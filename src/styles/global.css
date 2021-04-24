@@ -69,7 +69,7 @@ a:hover {
 }
 
 .button:hover {
-    @apply shadow-lg;
+    @apply shadow transform scale-105;
 }
 
 blockquote {
