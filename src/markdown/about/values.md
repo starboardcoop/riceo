@@ -4,7 +4,7 @@ title: Values
 order: 3
 ---
 
-# Our Values
+## Our Values
 
 ### We believe...
 

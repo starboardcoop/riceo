@@ -4,7 +4,7 @@ title: Conversions
 order: 2
 ---
 
-# Conversions
+## Conversions
 
 Many worker co-ops start out as traditional businesses, but convert when their original owners decide to retire. There are a number of reasons to go this route:
 

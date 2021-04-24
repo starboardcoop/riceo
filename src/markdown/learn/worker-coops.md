@@ -4,7 +4,7 @@ title: Worker Co-ops
 order: 1
 ---
 
-# What's a worker co-op?
+## What's a worker co-op?
 
 There are many kinds of cooperatives, such as credit unions and co-op markets. But unlike other consumer-owned cooperatives, a worker cooperative is a business owned by the people doing the work.
 

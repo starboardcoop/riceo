@@ -35,7 +35,7 @@ h2 {
 }
 
 h3 {
-    @apply text-xl md:text-2xl text-primary;
+    @apply text-xl md:text-2xl mb-2;
 }
 
 h4 {
