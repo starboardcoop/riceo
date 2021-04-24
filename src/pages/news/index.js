@@ -5,6 +5,10 @@ import SEO from "../../components/seo"
 import Banner from "../../components/banner"
 import ExternalLink from "../../components/external-link"
 
+const styles = {
+  article: ""
+}
+
 export default  ({
     data: {
       allMarkdownRemark: { edges },
@@ -16,18 +20,20 @@ export default  ({
         <div>
         {
             edges.map(edge => (
-                <article key={edge.node.frontmatter.link}>
-                  <div>
-                    <ExternalLink to={edge.node.frontmatter.link}>
-                      <img src={edge.node.frontmatter.image} alt="people" height="200" width="300"/>
-                    </ExternalLink>
-                  </div>
-                  <div>
-                    <span>{edge.node.frontmatter.date}</span>
-                    <ExternalLink to={edge.node.frontmatter.link}>
-                      <h1>{edge.node.frontmatter.title}</h1>
-                    </ExternalLink>
-                    <h3>{edge.node.frontmatter.subtitle}</h3>
+                <article key={edge.node.frontmatter.link} className={styles.article}>
+                  <div className="p-4">
+                    <div>
+                      <ExternalLink to={edge.node.frontmatter.link}>
+                        <img src={edge.node.frontmatter.image} alt="people" height="200" className="w-full md:w-1/4 lg:w-1/5" />
+                      </ExternalLink>
+                    </div>
+                    <div>
+                      <span>{edge.node.frontmatter.date}</span>
+                      <ExternalLink to={edge.node.frontmatter.link}>
+                        <h2>{edge.node.frontmatter.title}</h2>
+                      </ExternalLink>
+                      <h3>{edge.node.frontmatter.subtitle}</h3>
+                    </div>
                   </div>
                 </article>
             ))
