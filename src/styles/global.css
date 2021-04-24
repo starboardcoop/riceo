@@ -36,8 +36,7 @@ h2 {
 }
 
 h3 {
-    color: #2a2a2a;
-    font-size: 1.25rem;
+    @apply text-lg md:text-xl text-gray-900;
 }
 
 h4 {
