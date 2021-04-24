@@ -24,7 +24,7 @@ const Links = () => (
           <img src={logo} alt={data.navigationJson.logo.alt} className="max-h-11" />
         </Link>
         {data.navigationJson.links.map(link => (
-          <Link className="w-max text-lg rounded-full px-4 py-1 transition duration-150 ease-in-out hover:shadow" activeClassName="bg-secondary" to={link.link} key={link.label}>{link.label}</Link>
+          <Link className="w-max text-lg rounded-full px-4 py-1 transition  hover:bg-secondary hover:bg-opacity-40" activeClassName="bg-secondary" to={link.link} key={link.label}>{link.label}</Link>
         ))}
       </>
     )}
