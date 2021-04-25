@@ -21,7 +21,7 @@ export default  ({
         {
             edges.map(edge => (
                 <article key={edge.node.frontmatter.link} className={styles.article}>
-                  <div className="p-4">
+                  <div className="p-4 mx-auto md:w-2/3 lg:w-1/2">
                     <div>
                       <ExternalLink to={edge.node.frontmatter.link}>
                         <img src={edge.node.frontmatter.image} alt="people" height="200" className="w-full md:w-1/4 lg:w-1/5" />
